@@ -1,0 +1,105 @@
+#experience {
+  width: 100%;
+}
+#experience .container {
+  width: 90%;
+  margin: 0 auto;
+}
+.experience__title {
+  margin: 2% auto 4% auto;
+  padding-top: 2%;
+  font-weight: 700;
+  font-size: 25px;
+  /* margin: 0 auto; */
+  width: 30%;
+  height: 40%;
+  color: #606060;
+}
+.experience__block_left {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  /* gap: 2%; */
+}
+.experience__block_left_top {
+  border: 1px solid #606060;
+  border-radius: 10px;
+  width: 30%;
+  height: 40%;
+  /* margin: 0 auto; */
+}
+.experience__block_left_title {
+  padding: 1% 2%;
+  line-height: 30px;
+  font-size: 18px;
+  color: #fff;
+  font-size: 20px;
+  font-weight: 400;
+  background-color: #424242;
+  border-radius: 10px;
+}
+.experience__block_left_descr {
+  color: #424242;
+  padding: 0 1%;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.experience__block_left_bottom {
+  border: 1px solid #606060;
+  border-radius: 10px;
+  width: 30vw;
+  height: 40%;
+  /* margin: 0 auto 0 auto; */
+  margin-top: 3%;
+}
+
+.experience__block_right_top {
+  border: 1px solid #606060;
+  border-radius: 10px;
+  width: 30vw;
+  height: 40%;
+  /* margin: 0 auto; */
+}
+.experience__block_right_title {
+  padding: 1% 1%;
+  line-height: 30px;
+  font-size: 20px;
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  background-color: #424242;
+  border-radius: 10px;
+}
+.experience__block_right_descr {
+  color: #424242;
+  margin: 0 1%;
+  line-height: 20px;
+  font-weight: 400;
+  font-size: 16px;
+}
+.experience__block_right_bottom {
+  border: 1px solid #606060;
+  border-radius: 10px;
+  width: 30vw;
+  height: 40%;
+  /* margin: 0 auto; */
+}
+.experience__block {
+  display: flex;
+  flex-direction: column;
+  margin: 0;
+}
+.experience__block p {
+  padding: 1%;
+}
+.experience__block_right {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-bottom: 5%;
+}
+.experience__block_right_bottom {
+  margin-top: 2%;
+}
+/* slider */

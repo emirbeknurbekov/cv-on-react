@@ -1,0 +1,42 @@
+.container {
+  width: 90%;
+  margin: 0 auto;
+}
+#contact {
+  margin-top: 0;
+  width: 100%;
+  background: rgba(49, 53, 54, 1);
+}
+.contact__block__left__article img {
+  width: 20%;
+  height: 20%;
+}
+.contact__section__title {
+  padding-top: 2%;
+  font-weight: 700;
+  font-size: 2em;
+  color: rgba(37, 40, 41, 1);
+  margin: 0 auto;
+  width: 10%;
+}
+.contact__block {
+  display: flex;
+  justify-content: space-around;
+}
+.contact__block__left__article {
+  display: flex;
+  flex-direction: column;
+}
+.contact__block__right {
+  display: flex;
+  flex-direction: column;
+}
+.contact__block__left__article__block {
+  gap: 5%;
+  display: flex;
+  justify-content: start;
+  align-items: center;
+}
+.contact__block__left__article img {
+  height: 40px;
+}

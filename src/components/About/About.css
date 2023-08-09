@@ -1,0 +1,125 @@
+.container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+#nav {
+  width: 100%;
+  background: rgba(49, 53, 54, 1);
+}
+/* #nav .container {
+    background: rgba(49, 53, 54, 1);
+  } */
+.nav {
+  width: 95%;
+  display: flex;
+  justify-content: space-around;
+}
+.logo {
+  padding: 1% 2%;
+  display: flex;
+  justify-content: flex-start;
+  width: 15%;
+  height: 40px;
+}
+.logo,
+.logo__title:hover {
+  cursor: pointer;
+}
+.logo__title {
+  color: #fff;
+  font-size: 1.1em;
+  font-weight: 500;
+  text-align: center;
+}
+.navbar {
+  width: 75%;
+}
+.logo__img {
+  max-width: 50px;
+  max-height: 50px;
+}
+.navbar__item {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  text-decoration: none;
+  margin: 0;
+}
+.navbar__title {
+  padding: 3% 3%;
+  font-size: 18px;
+  color: #fff;
+}
+.navbar__title_last {
+  padding-right: 0;
+  margin: 0;
+}
+.navbar__title:hover {
+  background: rgba(69, 64, 64, 1);
+  color: rgba(0, 228, 114, 1);
+}
+.about__block_top {
+  width: 100%;
+  background: rgba(37, 40, 41, 1);
+  padding-top: 1%;
+  padding-bottom: 4%;
+
+  /* padding: 5% auto; */
+}
+.about__block_top__title {
+  color: #fff;
+  font-weight: 500;
+  font-size: 30px;
+  width: 15%;
+  margin: 1% auto 1% auto;
+  text-align: center;
+}
+.about__block_top__descr {
+  text-align: center;
+  color: #fff;
+  font-weight: 400;
+  font-size: 18px;
+  width: 20%;
+  margin: 2% auto 2% auto;
+}
+.about__block_bottom {
+  border: 1px solid gray;
+  border-radius: 7px;
+  box-shadow: 2px solid border;
+  width: 70%;
+  margin: 6% auto 2% auto;
+}
+.about__block_bottom__social {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2%;
+  /* margin-top: 3%; */
+}
+.about__block_bottom__social img {
+  /* border: 1px solid;
+    border-radius: 10px; */
+  width: 30px;
+  height: 40px;
+}
+.about__block_bottom__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  width: 70%;
+  margin: 0 auto;
+  color: gray;
+  text-align: center;
+}
+.profile {
+  display: flex;
+  justify-content: center;
+  /* border: 1px solid white;
+    border-radius: 30%; */
+  width: 20%;
+  margin: -15% auto auto auto;
+}
+.profile img {
+  border-radius: 30%;
+  justify-self: center;
+}

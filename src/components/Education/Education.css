@@ -1,0 +1,50 @@
+#education {
+  width: 100%;
+  background: rgba(37, 40, 41, 1);
+}
+#education .container {
+  max-width: 90%;
+  margin: 0 auto;
+}
+.education__section__title {
+  font-size: 30px;
+  color: #fff;
+  font-weight: 700;
+  width: 10%;
+  margin: 0 auto;
+}
+.education__block {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+.education__title {
+  align-items: center;
+  font-weight: 400;
+  font-size: 24px;
+  color: #00e472;
+}
+.education__title_second {
+  align-items: center;
+  font-weight: 400;
+  font-size: 20px;
+  color: #fff;
+  margin-bottom: 1%;
+}
+.education__descr {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #abaeb0;
+}
+.education__img {
+  max-width: 30%;
+  max-height: 30%;
+  border-radius: 10px;
+}
+.education__block__content__item {
+  margin-bottom: 5%;
+}
+.education__line {
+  max-height: 20%;
+}
